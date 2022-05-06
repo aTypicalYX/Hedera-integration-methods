@@ -1,0 +1,53 @@
+
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/diamondPaint.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover; 
+      -webkit-background-size: cover;
+      -moz-background-size:cover;
+      -o-background-size:cover;
+  }
+  
+  nav#navBar > button {
+    width: 200%;
+    size: 1000px;
+  }
+  
+  
+  button:hover{
+    transform: scale(0.98);
+  }
+  
+  .backgroundModal {
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+      padding: 20px;
+      position: relative;
+  
+  }
+  
+  form {
+    max-width: 50%;
+    size: 5%;
+    align-items: center;
+  }
+  
